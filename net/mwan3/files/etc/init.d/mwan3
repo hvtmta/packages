@@ -3,6 +3,10 @@
 START=19
 
 reload() {
+	mwan3 reload
+}
+
+restart() {
 	local enabled
 
 	config_load mwan3
